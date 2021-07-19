@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("./img/1613169243_156-p-zheltii-fon-dlya-nadpisi-teksta-na-bonbone-195.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 33px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 194, 38);
+}
+h1{
+    font-size: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ol{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: right;
+    line-height: 70px;
+    list-style-type: none;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
+    overflow: auto;
+    margin-top: 0px;
+}
+ol::-webkit-scrollbar {
+    display: none;
+}
+li{
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+li:active{
+    color: rgba(0, 0, 0, 0.767);
+    transform: scale(1.01);
+}
+li:hover{
+    color: green;
+}
+#num{
+    font-size: 20px;
+    font-weight: 700;
+}
+.names{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+.box{
+    margin-top: 100px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box button{
+    margin-left: 5px;
+    width: 100px;
+    height: 53px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 194, 38);
+    font-family: sans-serif;
+    font-weight: bold;
+    color: green;
+}
